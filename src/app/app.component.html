@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    
+  </style>
+</head>
+
+<body>
+  <nav class='navbar'>
+    <ul class='nav'>
+      <a class='nav-link' href="#primary">
+        <li class='ni'>
+        Home
+        </li>
+      </a>
+      <a class='nav-link' href="#secondary">
+        <li class='ni'>
+          Interesses
+        </li>
+      </a>
+      <a class='nav-link' href="#third">
+        <li class='ni'>
+          Projetos
+        </li>
+      </a>
+      <a class='nav-link' href="#fourth">
+        <li class='ni'>
+          Formação
+        </li>
+      </a>
+      <a class='nav-link' href="#fifth">
+        <li class='ni'>
+          Pessoal
+        </li>
+      </a>
+    </ul>
+  </nav>
+  <main>
+    <section class='primary' id='primary'>
+      <img class='logo' src='../assets/personallogo.svg'>
+      <div> 
+        <h1 class='title'>Leonam Teixeira de Vasconcelos</h1>
+        <h4 class='subtitle'>Aluno de engenharia de computação • CEFET-MG</h4>
+      </div>
+      <div class='social'>
+        <ul >
+          <li><a href="https://github.com/leonamtv"><img src="../assets/icons/github.svg"></a></li>
+          <li><a href="https://gitlab.com/leonam_tv"><img src="../assets/icons/gitlab.svg"></a></li>
+          <li><a href="https://www.linkedin.com/in/leonam-teixeira-de-vasconcelos-b0766a11b/"><img src="../assets/icons/linkedin.svg"></a></li>
+          <li><a href="https://t.me/leonam_tv"><img src="../assets/icons/telegram.svg"></a></li>
+        </ul>
+      </div>
+    </section>
+    <section class='prim content img2' id='secondary'>
+      <h1>Interesses</h1>
+      <h3>{{conteudo.interesses}}</h3>
+    </section>
+    <section class='sec content img3' id='third'>
+      <h1>Projetos</h1>
+      <h4>Abaixo, listo alguns de meus projetos disponíveis no github:</h4>
+
+      <div class='projs'>
+        <div class='proj' *ngFor='let proj of projs' (click)="goToProject(proj)">
+          <h4>{{proj.titulo}}</h4>
+          <p>{{proj.desc}}</p>
+          <img width=20 src='../assets/icons/newtab.png'>
+        </div>
+      </div>
+
+    </section>
+    <section class='prim content form' id='fourth'>
+      <h1>Formação</h1>
+      <ul>
+        <li *ngFor="let form of conteudo['formacao']">{{form}}<br><br></li>
+      </ul><br>
+    </section>
+    <section class='sec content last' id='fifth'>
+      <!-- <h1>Pessoal</h1> -->
+      <div class='habs'>
+        <div>
+          <h3>{{conteudo['habilidades-tec'].title}}</h3>
+          <ul>
+            <li *ngFor="let item of conteudo['habilidades-tec']['items']">{{item}}<br><br></li>
+          </ul><br>
+        </div>
+        <div>
+          <h3>{{conteudo['habilidades-pes'].title}}</h3>
+          <ul>
+            <li *ngFor="let item of conteudo['habilidades-pes']['items']">{{item}}<br><br></li>
+          </ul><br>
+        </div>
+        <div>
+          <h3>{{conteudo['studyingnow'].title}}</h3>
+          <ul>
+            <li *ngFor="let item of conteudo['studyingnow']['items']">{{item}}<br><br></li>
+          </ul><br>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>

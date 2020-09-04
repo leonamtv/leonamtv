@@ -1,0 +1,244 @@
+$color1: rgba(0, 166, 251, 1);
+$color2: rgba(5, 130, 202, 1);
+$color3: rgba(0, 100, 148, 1);
+$color4: rgb(0, 52, 82);
+$color5: rgb(20, 29, 37);
+$color6: rgb(245, 245, 245);
+
+ul {
+    list-style-type: '- ';
+}
+
+h1 {
+    font-size: 6vh;
+    color: $color5;
+}
+
+h2 {
+    font-size: 5vh;
+    color: $color5;
+}
+
+h3 {
+    font-size: 4vh;
+    color: $color5;
+}
+
+h4 {
+    font-size: 3vh;
+    color: $color5;
+}
+
+h5 {
+    font-size: 2vh;
+    color: $color5;
+}
+
+section {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+
+    h1, h2, h3, h4, h5 {
+        padding-bottom: 3%;
+    }
+
+}
+
+.navbar {
+    top: 0;
+    width: 100%;
+    height: 4vh;
+    position: fixed;
+    background-image: linear-gradient(to right top, #222933, #202731, #1e252f, #1d232d, #1b212b);
+    padding: 0.5rem 0;
+    z-index: 2;
+    -webkit-box-shadow: 0px 30px 80px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 30px 80px 0px rgba(0,0,0,0.1);
+    box-shadow: 0px 30px 80px 0px rgba(0,0,0,0.1);
+}
+
+.nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+.ni {
+    padding: 0.3rem 1rem;
+    color: white;
+    transition: background-color 0.3s ease-in-out, border-radius 0.2s ease-in-out;
+}
+
+.ni:hover {
+    border-radius: 15px;
+    background-color: $color1;
+}
+
+.primary {
+    margin-top: 4.3vh;
+    text-align: center;
+    background-image: url("../assets/bg.svg");
+    transform: scale(1.0004);
+    overflow: hidden;
+    width: 100%;
+    height: 95.7vh;
+    margin-left: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.primary div {
+    margin-top: 15%;
+}
+
+.title {
+    color: white;   
+}
+
+.subtitle {
+    color: white;   
+}
+
+.logo {
+    width: 4rem;
+    margin: 2%;
+    display: flex;
+}
+
+.content {
+    padding: 5rem;
+}
+
+.img3 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.social{ 
+    width: 46%;
+    position: absolute;
+    right: 0;
+    bottom: 6%;
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        a img {
+            width: 30px;
+            border-radius: 5px;
+            transition: transform 0.1s ease-in-out;
+        }
+
+        a img:hover {
+            box-shadow: 0 6px 28px 0 rgba(24, 52, 117, 0.2);
+            transform: scale(1.2);
+        }
+    }
+}
+
+.sec {
+    background-color: $color6;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.prim {
+    background-image: url("../assets/bg3.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.last {
+
+    background-image: url("../assets/bg5.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.habs {
+    display: inline-flex;
+    div {
+        width: 25rem;
+        margin: 0 2%;
+
+        li {
+            font-size: 15pt;
+        }
+    }
+}
+
+.form {
+    li {
+        font-size: 15pt;
+    }
+}
+
+.projs {
+    display: grid;
+    gap: 5rem;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    background-image: url("../assets/bg4.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    h4 {
+        margin-bottom: 1rem;
+    }
+
+    .proj {
+        position: relative;
+        cursor: pointer;
+        width: 15rem;
+        padding: 1.2rem;
+        padding-bottom: 3rem;
+        margin-top: 2rem;
+        background-color: white;
+        border-radius: 10px;
+        font-size: 15pt;
+        box-shadow: 0 6px 28px 0 rgba(24, 52, 117, 0.2);
+        transition: box-shadow 0.2s ease-in-out;
+
+        img {
+            width: 20;
+            position: absolute;
+            opacity: 0.5;
+            bottom: 1.2rem;
+            right: 1.2rem;
+            transition: opacity 0.2 ease-in-out;
+        }
+
+        img:hover {
+            opacity: 0.8;
+        }
+    }
+    
+    .proj:hover {
+        box-shadow: 0 6px 28px 0 rgba(24, 52, 117, 0.4);
+    }
+}
+
+@media only screen and (max-width : 800px) {
+    .social{ 
+        width: 40%;
+        position: absolute;
+        right: 0;
+        bottom: 6%;
+    } 
+}

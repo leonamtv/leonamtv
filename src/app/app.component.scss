@@ -188,15 +188,18 @@ section {
         font-size: 15pt;
     }
 }
+.img3 {
+    background-image: url("../assets/bg4.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 .projs {
     display: grid;
     gap: 5rem;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    background-image: url("../assets/bg4.svg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     
     h4 {
         margin-bottom: 1rem;

@@ -15,7 +15,7 @@ Vocês encontrarão alguns de meus projetos neste perfil do github!
 
 ## Ferramentas utilizadas
 
-<table>
+<table border="0">
     <tr>
         <td>
             <a href='https://github.com/python/cpython' title='Python'><img width=25 src='https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg'></a>
@@ -44,7 +44,7 @@ Vocês encontrarão alguns de meus projetos neste perfil do github!
 
 ## Contatos, informações e perfis
 
-<table>
+<table  border="0">
     <tr>
         <td>
             <a href='http://leonamtv.github.io/leonamtv/' title='Meu website'><img width=25 src="https://leonamtv.github.io/leonamtv/assets/personallogo.svg"></a>
@@ -60,6 +60,9 @@ Vocês encontrarão alguns de meus projetos neste perfil do github!
         </td>
         <td>
             <a href='https://gitlab.com/leonam_tv' title='Gitlab'><img width=25 src="https://upload.wikimedia.org/wikipedia/commons/1/18/GitLab_Logo.svg"></a>
+        </td>
+        <td>
+            <a href="https://wa.me/+5531987098133" title='WhatsApp'><img width=27 src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"></a>
         </td>
     </tr>
 </table>

@@ -1,0 +1,33 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG //EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!-- Created using Krita: https://krita.org -->
+<svg xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:krita="http://krita.org/namespaces/svg/krita"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    width="2000.16pt"
+    height="1000.08pt"
+    viewBox="0 0 2000.16 1000.08">
+<defs>
+  <clipPath id="clippath0" clipPathUnits="userSpaceOnUse">
+      <defs/>
+   <g id="_clipPath_aZNkseQ2LmSYcD3nqGolRvKSIpXA77aR" fill="none">
+     <rect id="shape0" fill="#000000" width="2000" height="1000"/>
+    </g>
+  </clipPath>
+ </defs>
+<g id="group0" fill="none" clip-path="url(#clippath0)">
+  <g id="group1" fill="none"/>
+  <g id="group2" fill="none">
+   <path id="shape0" transform="translate(312, 246.232)" fill="none" stroke="#e18c4c" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="3" d="M0 663.601C75.7987 557.219 194.176 507.851 355.133 515.497C596.568 526.965 576.597 464.085 710.266 367.393C843.936 270.7 888.229 377.873 1065.4 219.289C1242.57 60.705 1370.7 95.901 1420.53 71.185C1453.75 54.707 1477.48 30.9787 1491.72 0"/>
+   <path id="shape1" transform="translate(339.06, 254.479)" fill="none" stroke="#e18c4c" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="3" d="M0 700.099C73.1587 591.885 190.286 539.62 351.382 543.303C593.026 548.829 571.514 486.459 702.764 386.507C834.014 286.555 880.93 392.606 1054.15 229.711C1227.36 66.816 1356.32 98.85 1405.53 72.914C1438.33 55.624 1461.47 31.3193 1474.94 0"/>
+   <path id="shape2" transform="translate(362.193, 265.87)" fill="none" stroke="#e18c4c" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="3" d="M0 729.13C71.004 619.49 187.075 564.919 348.213 565.416C589.919 566.161 567.177 504.229 696.425 401.701C825.673 299.173 874.677 404.276 1044.64 237.987C1214.6 71.699 1344.17 101.176 1392.85 74.273C1425.31 56.3377 1447.96 31.58 1460.81 0"/>
+  </g>
+  <g id="group3" fill="none">
+   <path id="shape3" transform="translate(1805.863, 141.432524804577)" fill="#ebebeb" stroke="#e18c4c" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="3" d="M111.754 1.94248C115.857 5.87448 114.661 14.7015 108.167 28.4255C98.477 48.9015 76.9917 80.2775 43.711 122.553L0 83.7215C64.2793 19.4055 101.531 -7.85419 111.754 1.94248Z"/>
+   <path id="shape4" transform="translate(1862.90964159901, 175.168543441856)" fill="#ebebeb" stroke="#e18c4c" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="3" d="M3.53536 4.70446C8.67336 -1.07854 17.5394 -1.60254 23.3234 3.53546C29.1064 8.67346 29.6304 17.5395 24.4924 23.3225C19.3554 29.1065 10.4884 29.6305 4.70536 24.4925C-1.07864 19.3545 -1.60264 10.4885 3.53536 4.70446Z"/>
+   <path id="shape5" transform="translate(1754.643, 203.143569878749)" fill="#ffffff" stroke="#e18c4c" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="3" d="M72.1 0.91943C59.284 -0.46657 46.624 -0.28557 34.12 1.46243C21.616 3.21043 10.2427 5.9631 0 9.72043L51.22 22.0104Z"/>
+   <path id="shape6" transform="translate(1849.042, 241.366)" fill="#ffffff" stroke="#e18c4c" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="3" d="M18.485 0C21.371 12.5627 22.6827 25.1557 22.42 37.779C22.1573 50.4023 20.764 62.0207 18.24 72.634L0 23.219Z"/>
+  </g>
+ </g>
+</svg>

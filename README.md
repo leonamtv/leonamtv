@@ -27,13 +27,13 @@ Vocês encontrarão alguns de meus projetos neste perfil do github!
             <a href='https://github.com/angular/angular' title='Angular'><img width=35 src='https://angular.io/assets/images/logos/angular/angular.svg'></a>
         </td>
         <td>
-            <a href='https://github.com/flutter/flutter' title='Flutter'><img width=22 src='img/flutter.svg'></a>
+            <a href='https://github.com/flutter/flutter' title='Flutter'><img width=22 src='https://raw.githubusercontent.com/leonamtv/leonamtv/master/img/flutter.svg'></a>
         </td>
         <td>
-            <a href='https://github.com/dart-lang/sdk' title='Dart'><img width=30 src='img/dart.svg'></a>
+            <a href='https://github.com/dart-lang/sdk' title='Dart'><img width=30 src='https://raw.githubusercontent.com/leonamtv/leonamtv/master/img/dart.svg'></a>
         </td>
         <td>
-            <a href='https://github.com/microsoft/TypeScript' title='Typescript'><img width=25 src='img/ts.svg'></a>
+            <a href='https://github.com/microsoft/TypeScript' title='Typescript'><img width=25 src='https://raw.githubusercontent.com/leonamtv/leonamtv/master/img/ts.svg'></a>
         </td>
         <td>
             <a href='https://github.com/microsoft/vscode' title='VScode'><img width=25 src='https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/800px-Visual_Studio_Code_1.35_icon.svg.png'></a>
@@ -47,7 +47,7 @@ Vocês encontrarão alguns de meus projetos neste perfil do github!
 <table>
     <tr>
         <td>
-            <a href='http://leonamtv.github.io/leonamtv/' title='Meu website'><img width=25 src="src/assets/personallogo.svg"></a>
+            <a href='http://leonamtv.github.io/leonamtv/' title='Meu website'><img width=25 src="https://leonamtv.github.io/leonamtv/assets/personallogo.svg"></a>
         </td>
         <td>
             <a href='https://t.me/Leonam_tv' title='Telegram'><img width=25 src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg"></a>

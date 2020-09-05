@@ -37,11 +37,20 @@ h5 {
 section {
     overflow-y: scroll;
     scroll-behavior: smooth;
-
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none; 
+    
+    
     h1, h2, h3, h4, h5 {
         padding-bottom: 3%;
     }
+    
+}
 
+section::-webkit-scrollbar { 
+    width: 0;
+    height: 0;
 }
 
 .navbar {
@@ -55,31 +64,34 @@ section {
     -webkit-box-shadow: 0px 30px 80px 0px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0px 30px 80px 0px rgba(0,0,0,0.1);
     box-shadow: 0px 30px 80px 0px rgba(0,0,0,0.1);
+    
+    .nav {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        
+        .nav-link {
+            text-decoration: none;
+            cursor: pointer;
+            .ni {
+                padding: 0.3rem 1rem;
+                color: white;
+                transition: background-color 0.3s ease-in-out, border-radius 0.2s ease-in-out;
+            }
+            
+            .ni:hover {
+                border-radius: 15px;
+                background-color: $color1;
+            }
+        }
+    }
 }
 
-.nav {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
 
-.nav-link {
-    text-decoration: none;
-}
 
-.ni {
-    padding: 0.3rem 1rem;
-    color: white;
-    transition: background-color 0.3s ease-in-out, border-radius 0.2s ease-in-out;
-}
-
-.ni:hover {
-    border-radius: 15px;
-    background-color: $color1;
-}
 
 .primary {
     margin-top: 4.3vh;
@@ -234,6 +246,33 @@ section {
     
     .proj:hover {
         box-shadow: 0 6px 28px 0 rgba(24, 52, 117, 0.4);
+    }
+}
+
+
+
+.end {
+    background-color: $color5;
+    color: $color6;
+    padding: 2rem 5rem;
+    text-align: right;
+    font-size: 2.5vh;
+
+    a { 
+        color: $color6;
+        font-weight: bold;
+        text-decoration: none;
+        transition: opacity 0.2s ease-in-out;
+    }
+
+    a:hover {
+        opacity: 0.8;
+    }
+
+    .email {
+        padding-top: 1vh;
+        font-style: italic;
+        font-size: 2vh;
     }
 }
 

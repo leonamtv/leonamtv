@@ -111,4 +111,8 @@ export class AppComponent implements OnInit {
     window.open(proj.link, "_blank");
   }
 
+  scrollToElement($element): void {
+    $element.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+  }
+
 }

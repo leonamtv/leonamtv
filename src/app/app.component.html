@@ -13,27 +13,27 @@
 <body>
   <nav class='navbar'>
     <ul class='nav'>
-      <a class='nav-link' href="#primary">
+      <a class='nav-link'  (click)="scrollToElement(home)">
         <li class='ni'>
         Home
         </li>
       </a>
-      <a class='nav-link' href="#secondary">
+      <a class='nav-link' (click)="scrollToElement(interesses)">
         <li class='ni'>
           Interesses
         </li>
       </a>
-      <a class='nav-link' href="#third">
+      <a class='nav-link' (click)="scrollToElement(projetos)">
         <li class='ni'>
           Projetos
         </li>
       </a>
-      <a class='nav-link' href="#fourth">
+      <a class='nav-link' (click)="scrollToElement(formacao)">
         <li class='ni'>
           Formação
         </li>
       </a>
-      <a class='nav-link' href="#fifth">
+      <a class='nav-link' (click)="scrollToElement(pessoal)" >
         <li class='ni'>
           Pessoal
         </li>
@@ -41,7 +41,7 @@
     </ul>
   </nav>
   <main>
-    <section class='primary' id='primary'>
+    <section class='primary' #home>
       <img class='logo' src='assets/personallogo.svg'>
       <div> 
         <h1 class='title'>Leonam Teixeira de Vasconcelos</h1>
@@ -57,11 +57,11 @@
         </ul>
       </div>
     </section>
-    <section class='prim content img2' id='secondary'>
+    <section class='prim content img2' #interesses>
       <h1>Interesses</h1>
       <h3>{{conteudo.interesses}}</h3>
     </section>
-    <section class='sec content img3' id='third'>
+    <section class='sec content img3' #projetos>
       <h1>Projetos</h1>
       <h4>Abaixo, listo alguns de meus projetos disponíveis no github:</h4>
 
@@ -74,13 +74,13 @@
       </div>
 
     </section>
-    <section class='prim content form' id='fourth'>
+    <section class='prim content form' #formacao>
       <h1>Formação</h1>
       <ul>
         <li *ngFor="let form of conteudo['formacao']">{{form}}<br><br></li>
       </ul><br>
     </section>
-    <section class='sec content last' id='fifth'>
+    <section class='sec content last' #pessoal>
       <h1>Pessoal</h1>
       <div class='habs'>
         <div>
@@ -102,6 +102,14 @@
           </ul><br>
         </div>
       </div>
+    </section>
+    <section class='end' #contato>
+        <div>
+          Design e implementação por <a href='https://github.com/leonamtv'>Leonam T.V.</a> <br>
+        </div>
+        <div class='email'>
+          leonam.teixeira.vasconcelos@gmail.com
+        </div>
     </section>
   </main>
 </body>

@@ -11,6 +11,11 @@ export class AppComponent implements OnInit {
 
   projs = [
     {
+      'titulo' : 'FGA N-Rainhas',
+      'desc'   : 'Implementação de algoritmo genético para resolver o problema das N-rainhas.',
+      'link'   : 'https://github.com/leonamtv/FGA-N-Rainhas'
+    },
+    {
       'titulo' : 'Frame Analyser',
       'desc'   : 'Um script em python3 para analisar um vídeo ou um filme e gerar um html com suas cores predominantes.',
       'link'   : 'https://github.com/leonamtv/frame-analyser'
@@ -67,6 +72,8 @@ export class AppComponent implements OnInit {
     'habilidades-pes' : {
       'title' : 'Habilidades pessoais',
       'items' : [
+        'Proativo',
+        'Trabalho bem em equipe',
         'Toco violão, guitarra, baixo e teclado'
       ]
     },

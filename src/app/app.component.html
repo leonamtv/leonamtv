@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="theme-color" content="#141d25" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style>
@@ -41,7 +42,7 @@
     </ul>
   </nav>
   <main>
-    <section class='primary' #home>
+    <section class='primary' id='home' #home>
       <img class='logo' src='assets/personallogo.svg'>
       <div> 
         <h1 class='title'>Leonam Teixeira de Vasconcelos</h1>
@@ -57,11 +58,11 @@
         </ul>
       </div>
     </section>
-    <section class='prim content img2' #interesses>
+    <section class='prim content img2' id='interesses'  #interesses>
       <h1>Interesses</h1>
       <h3>{{conteudo.interesses}}</h3>
     </section>
-    <section class='sec content img3' #projetos>
+    <section class='sec content img3' id='projetos' #projetos>
       <h1>Projetos</h1>
       <h4>Abaixo, listo alguns de meus projetos disponíveis no github:</h4>
 
@@ -74,13 +75,13 @@
       </div>
 
     </section>
-    <section class='prim content form' #formacao>
+    <section class='prim content form' id='formacao' #formacao>
       <h1>Formação</h1>
       <ul>
         <li *ngFor="let form of conteudo['formacao']">{{form}}<br><br></li>
       </ul><br>
     </section>
-    <section class='sec content last' #pessoal>
+    <section class='sec content last' id='pessoal' #pessoal>
       <h1>Pessoal</h1>
       <div class='habs'>
         <div>
@@ -103,7 +104,7 @@
         </div>
       </div>
     </section>
-    <section class='end' #contato>
+    <section class='end' id='contato' #contato>
         <div>
           Design e implementação por <a href='https://github.com/leonamtv'>Leonam T.V.</a> <br>
         </div>

@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { DOCUMENT } from '@angular/common';
+import { Component, Inject, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -95,20 +96,24 @@ export class AppComponent implements OnInit {
           ]
         },
         {
-          'title' : 'Problemas favoritos',
+          'title' : 'Problema favorito',
           'items' : [
-            'Dado um gerador de números aleatórios uniformemente distribuídos, encontre uma aproximação do valor de pi.'
+            'Aproximação de pi pelo método de Monte Carlo'
           ]
         },
         {
           'title' : 'Filmes favoritos',
           'items' : [
-
+            'Pulp Fiction',
+            'Inglorious Basterds',
+            'Arrival',
+            'Lord of the rings I, II e III'
           ]
         }
       ]
     }
   };
+  constructor(@Inject(DOCUMENT) document) {}
   
   ngOnInit(): void {
     console.log('Campo de vetores do background gerado pela função: \n   f(x,y) = (x + y)î + (y)ĵ');
@@ -121,5 +126,4 @@ export class AppComponent implements OnInit {
   scrollToElement($element): void {
     $element.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
   }
-
 }

@@ -90,9 +90,6 @@ section::-webkit-scrollbar {
     }
 }
 
-
-
-
 .primary {
     margin-top: 4.3vh;
     text-align: center;
@@ -250,7 +247,6 @@ section::-webkit-scrollbar {
 }
 
 
-
 .end {
     background-color: $color5;
     color: $color6;
@@ -276,11 +272,130 @@ section::-webkit-scrollbar {
     }
 }
 
-@media only screen and (max-width : 800px) {
+@media only screen and (max-width : 530px) {
+
+    h1 {
+        font-size: 5vh;
+    }
+
+    h2 {
+        font-size: 4vh;
+    }
+
+    h3 {
+        font-size: 3.5vh;
+    }
+
+    h4 {
+        font-size: 2.5vh;
+    }
+
+    h5 {
+        font-size: 1.5vh;
+    }
+
     .social{ 
         width: 40%;
         position: absolute;
         right: 0;
         bottom: 6%;
     } 
+    .navbar {
+        display: none;
+    }
+    .primary {
+        background-color: $color5;
+        margin-top: 0;
+        height: 100vh;
+        text-align: center;
+        background-image: url("../assets/bg5.svg");
+        transform: scale(1.0004);
+        overflow: hidden;
+        width: 100%;
+        margin-left: -1;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        div {
+            margin-top: 20vh;
+            h1, h4 {
+                padding: 1rem;
+            }
+        }
+        .social{ 
+            width: 100%;
+            position: absolute;
+            right: 0;
+            bottom: 8%;
+            img {
+                filter: brightness(10);
+            }
+        }
+    }
+    .content {
+        padding: 1.5rem;
+    }
+   
+    .form {
+        padding-left: 2rem;
+        padding-bottom: 0;
+        li {
+            font-size: 3vh;
+        }
+    }
+    .habs {
+        width: 100%;
+        display: inline-flex;
+        flex-direction: column;
+        div {
+            width: 100%;
+            padding-left: 0.5rem;
+            li {
+                font-size: 3vh;
+            }
+        }
+    }
+    .end {
+        background-color: $color5;
+        color: $color6;
+        padding: 2rem 1rem;
+        text-align: right;
+        font-size: 2.5vh;
+    
+        a { 
+            color: $color6;
+            font-weight: bold;
+            text-decoration: none;
+            transition: opacity 0.2s ease-in-out;
+        }
+    
+        a:hover {
+            opacity: 0.8;
+        }
+    
+        .email {
+            padding-top: 1vh;
+            font-style: italic;
+            font-size: 2vh;
+        }
+    }
+}
+
+@media only screen and (max-width : 500px) {
+    .projs {
+        display: grid;
+        gap: 0.5rem;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        
+        h4 {
+            margin-bottom: 0.5rem;
+        }
+    
+        .proj {
+            width: 90%;
+            padding: 1.1rem;
+            padding-bottom: 3rem;
+            margin-top: 1rem;
+        }
+    }
 }

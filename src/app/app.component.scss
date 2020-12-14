@@ -41,7 +41,6 @@ section {
     scrollbar-width: none;
     -ms-overflow-style: none; 
     
-    
     h1, h2, h3, h4, h5 {
         padding-bottom: 3%;
     }
@@ -173,7 +172,6 @@ section::-webkit-scrollbar {
 }
 
 .last {
-
     background-image: url("../assets/bg5.svg");
     background-position: center;
     background-repeat: no-repeat;
@@ -271,6 +269,33 @@ section::-webkit-scrollbar {
         font-size: 2vh;
     }
 }
+
+.fab {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: $color1;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 15pt;
+    padding: 0.5rem 0.7rem;
+    box-shadow: 0 6px 28px 0 rgba(24, 52, 117, 0.3);
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.fab:focus {
+    border: none;
+    outline: none;
+}
+
+.fab:hover {
+    box-shadow: 0 6px 28px 0 rgba(24, 52, 117, 0.6);
+} 
+
 
 @media only screen and (max-width : 530px) {
 
@@ -379,6 +404,14 @@ section::-webkit-scrollbar {
             font-size: 2vh;
         }
     }
+
+    .fab {
+        bottom: 30px;
+        right: 30px;
+        font-size: 25px;
+        padding: 0.5rem 1rem;
+    }
+
 }
 
 @media only screen and (max-width : 500px) {

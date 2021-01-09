@@ -1,4 +1,20 @@
-# Olá, meu nome é Leonam 
+# [en] Hello, my name is Leonam
+
+I am a computer engineering student at CEFET-MG and I love software development.
+
+* Web development (Angular and Node)
+* Mobile development (Flutter)
+* Task automation and a little bit of data analysis (Python)
+
+## Interests
+
+* Mobile and web development
+* Data analysis and machine learning
+* Infrastructure (Linux + Docker)
+
+You'll find some of my projects in this github profile!
+
+# [pt-br] Olá, meu nome é Leonam 
 
 Sou estudante de engenharia de computação no CEFET-MG e apaixonado por desenvolvimento de software.
 
@@ -12,8 +28,9 @@ Vocês encontrarão alguns de meus projetos neste perfil do github!
 
 * Desenvolvimento Mobile e Web
 * Análise de dados e Machine Learning
+* Infraestrutura (Linux + Docker)
 
-## Ferramentas utilizadas
+## Ferramentas utilizadas / Tools that I use
 
 <table border="0">
     <tr>
@@ -42,12 +59,12 @@ Vocês encontrarão alguns de meus projetos neste perfil do github!
 </table>
 
 
-## Contatos, informações e perfis
+## Contatos, informações e perfis / Contact, information and profiles
 
 <table  border="0">
     <tr>
         <td>
-            <a href='http://leonamtv.github.io/leonamtv/' title='Meu website'><img width=25 src="https://leonamtv.github.io/leonamtv/assets/personallogo.svg"></a>
+            <a href='http://leonamtv.github.io/leonamtv/' title='Meu website / My website'><img width=25 src="https://leonamtv.github.io/leonamtv/assets/personallogo.svg"></a>
         </td>
         <td>
             <a href='https://t.me/Leonam_tv' title='Telegram'><img width=25 src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg"></a>

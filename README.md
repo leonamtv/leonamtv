@@ -144,7 +144,7 @@ Vocês encontrarão alguns de meus projetos neste perfil do github!
     </tr>
 </table>
 
-## Contatos, informações e perfis / Contact, information and profiles
+## Contatos, informações e perfis | Contact, information and profiles
 <table  border="0">
     <tr>
         <td>

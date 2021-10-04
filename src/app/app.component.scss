@@ -4,6 +4,7 @@ $color3: rgba(0, 100, 148, 1);
 $color4: rgb(0, 52, 82);
 $color5: rgb(20, 29, 37);
 $color6: rgb(245, 245, 245);
+$color7: rgb(255, 153, 20);
 
 ul {
     list-style-type: '- ';
@@ -50,6 +51,92 @@ section {
 section::-webkit-scrollbar { 
     width: 0;
     height: 0;
+}
+
+.progress {
+    width: 100%;
+    height: 4px;
+    background: #e1e4e8;
+    border-radius: 3px;
+    overflow: hidden;
+
+    .progress-bar {
+        display: block;
+        height: 100%;
+        background: linear-gradient(90deg,#ffd33d,#ea4aaa 17%,#b34bff 34%,#01feff 51%,#ffd33d 68%,#ea4aaa 85%,#b34bff);
+        background-size: 300% 100%;
+        animation: progress-animation 2s linear infinite;
+
+
+    }
+
+}
+
+@keyframes progress-animation {
+    0% {
+        background-position: 100%;
+    }
+    100% {
+        background-position: 0;
+    }
+}
+
+.tools-wrapper {
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
+
+
+    .tools-linguagens {
+        
+        div {
+            display: grid;
+            grid-template-columns: auto auto;
+            grid-column-gap: 1rem;
+
+            .tools-linguagem {
+                display: flex;
+                position: relative;
+                justify-content: initial;
+                width: 230px;
+                background-color: rgba(white, 0.7);
+                padding: 15px;
+                margin-bottom: 10px;
+                border-radius: 15px;
+                align-items: initial;
+                text-align: left;
+                transition: box-shadow 0.2s ease-in-out;
+    
+                img {
+                    width: 60px;
+                }
+                span {
+                    font-weight: 600;
+                    font-style: italic;
+                    padding-left: 20px;
+                    font-size: 2.3vh;
+                    vertical-align: middle;
+                    text-align: center;
+                    vertical-align: middle;
+                    color: $color7;
+                }
+                .link-icon {
+                    width: 15px;
+                    position: absolute;
+                    opacity: 0.3;
+                    bottom: 1.2rem;
+                    right: 1.2rem;
+                    transition: opacity 0.2 ease-in-out;
+                }
+            }
+    
+            .tools-linguagem:hover {
+                box-shadow: 0 6px 28px 0 rgba(24, 52, 117, 0.2);
+            }
+
+        }
+    }
 }
 
 .navbar {

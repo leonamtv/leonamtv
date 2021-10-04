@@ -65,14 +65,19 @@
     <section class='sec content img3' id='projetos' #projetos>
       <h1>Projetos</h1>
       <h4>Abaixo, listo alguns de meus projetos disponíveis no github:</h4>
-
-      <div class='projs'>
-        <div class='proj' *ngFor='let proj of projs' (click)="goToProject(proj)">
-          <h4>{{proj.titulo}}</h4>
-          <p>{{proj.desc}}</p>
-          <img width=20 src='assets/icons/newtab.png'>
-        </div>
+      <div class="progress" *ngIf="loadingProjs">
+        <span class="progress-bar" style="width: 100%"></span>
       </div>
+      <ng-container *ngIf="!loadingProjs">
+        <div class='projs'>
+          <div class='proj' *ngFor='let proj of projs' (click)="goToLink(proj.link)">
+            <h4>{{proj.titulo}}</h4>
+            <p>{{proj.desc}}</p>
+            <img width=20 src='assets/icons/newtab.png'>
+          </div>
+        </div>
+      </ng-container>
+
 
     </section>
     <section class='prim content form' id='formacao' #formacao>
@@ -101,6 +106,87 @@
           <ul>
             <li *ngFor="let item of conteudo['studyingnow']['items']">{{item}}<br><br></li>
           </ul><br>
+        </div>
+      </div>
+      <div class='tools'>
+        <h1>Ferramentas</h1>
+        <div class='tools-wrapper'>
+          <div class='tools-linguagens'>
+            <h3>Linguagens</h3>
+            <div>
+
+              <div *ngFor="let item of tools['linguagens']" class='tools-linguagem' (click)="goToLink(item.link)">
+                <img [src]="item.icone" [title]="item.nome">
+                <span>{{item.nome}}</span>
+                <img class="link-icon" width=20 src='assets/icons/newtab.png'>
+              </div>
+            </div>
+          </div>
+          <div class='tools-linguagens'>
+            <h3>Frameworks e <br>ambientes</h3>
+            <div>
+
+              <div *ngFor="let item of tools['frameworks']" class='tools-linguagem' (click)="goToLink(item.link)">
+                <img [src]="item.icone" [title]="item.nome">
+                <span>{{item.nome}}</span>
+                <img class="link-icon" width=20 src='assets/icons/newtab.png'>
+              </div>
+            </div>
+          </div>
+          <div class='tools-linguagens'>
+            <h3>IDE's e Editores</h3>
+            <div>
+
+              <div *ngFor="let item of tools['text']" class='tools-linguagem' (click)="goToLink(item.link)">
+                <img [src]="item.icone" [title]="item.nome">
+                <span>{{item.nome}}</span>
+                <img class="link-icon" width=20 src='assets/icons/newtab.png'>
+              </div>
+            </div>
+          </div>
+          <div class='tools-linguagens'>
+            <h3>Outras</h3>
+            <div>
+              <div *ngFor="let item of tools['misc']" class='tools-linguagem' (click)="goToLink(item.link)">
+                <img [src]="item.icone" [title]="item.nome">
+                <span>{{item.nome}}</span>
+                <img class="link-icon" width=20 src='assets/icons/newtab.png'>
+              </div>
+            </div>
+          </div>
+          <div class='tools-linguagens'>
+            <h3>SO's</h3>
+            <div>
+
+              <div *ngFor="let item of tools['os']" class='tools-linguagem' (click)="goToLink(item.link)">
+                <img [src]="item.icone" [title]="item.nome">
+                <span>{{item.nome}}</span>
+                <img class="link-icon" width=20 src='assets/icons/newtab.png'>
+              </div>
+            </div>
+          </div>
+          <div class='tools-linguagens'>
+            <h3>Banco de<br> dados</h3>
+            <div>
+
+              <div *ngFor="let item of tools['dbs']" class='tools-linguagem' (click)="goToLink(item.link)">
+                <img [src]="item.icone" [title]="item.nome">
+                <span>{{item.nome}}</span>
+                <img class="link-icon" width=20 src='assets/icons/newtab.png'>
+              </div>
+            </div>
+          </div>
+          <div class='tools-linguagens'>
+            <h3>Estudando</h3>
+            <div>
+
+              <div *ngFor="let item of tools['estudando']" class='tools-linguagem' (click)="goToLink(item.link)">
+                <img [src]="item.icone" [title]="item.nome">
+                <span>{{item.nome}}</span>
+                <img class="link-icon" width=20 src='assets/icons/newtab.png'>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>

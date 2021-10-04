@@ -1,0 +1,166 @@
+{
+    "linguagens" : [
+        {
+            "nome": "Python",
+            "link": "",
+            "icone": "assets/tool_icons/python.png"
+        },
+        {
+            "nome": "Javascript",
+            "link": "",
+            "icone": "assets/tool_icons/js.png"
+        },
+        {
+            "nome": "Dart",
+            "link": "",
+            "icone": "assets/tool_icons/dart.png"
+        },
+        {
+            "nome": "Java",
+            "link": "",
+            "icone": "assets/tool_icons/java.png"
+        },
+        {
+            "nome": "Typescript",
+            "link": "",
+            "icone": "assets/tool_icons/ts.png"
+        },
+        {
+            "nome": "PlSql",
+            "link": "",
+            "icone": "assets/tool_icons/PLSQL.png"
+        }
+    ],
+    "frameworks" : [
+        {
+            "nome": "Angular",
+            "link": "",
+            "icone": "assets/tool_icons/angular.png"
+        },
+        {
+            "nome": "Flutter",
+            "link": "",
+            "icone": "assets/tool_icons/flutter.png"
+        },
+        {
+            "nome": "SpringBoot",
+            "link": "",
+            "icone": "assets/tool_icons/springboot.png"
+        },
+        {
+            "nome": "NodeJS",
+            "link": "",
+            "icone": "assets/tool_icons/node.png"
+        }
+    ],
+    "text" : [
+        {
+            "nome": "VsCode",
+            "link": "",
+            "icone": "assets/tool_icons/vscode.png"
+        },
+        {
+            "nome": "STS",
+            "link": "",
+            "icone": "assets/tool_icons/sts.png"
+        },
+        {
+            "nome": "Eclipse",
+            "link": "",
+            "icone": "assets/tool_icons/eclipse.png"
+        },
+        {
+            "nome": "NetBeans",
+            "link": "",
+            "icone": "assets/tool_icons/netbeans.png"
+        },
+        {
+            "nome": "SQL Developer",
+            "link": "",
+            "icone": "assets/tool_icons/sqldeveloper.png"
+        },
+        {
+            "nome": "Vim",
+            "link": "",
+            "icone": "assets/tool_icons/vim.png"
+        }
+    ],
+    "misc" :[
+        {
+            "nome": "Git",
+            "link": "",
+            "icone": "assets/tool_icons/git.png"
+        },
+        {
+            "nome": "GitHub",
+            "link": "",
+            "icone": "assets/tool_icons/github.png"
+        },
+        {
+            "nome": "GitLab",
+            "link": "",
+            "icone": "assets/tool_icons/gitlab.png"
+        },
+        {
+            "nome": "GravitDesign",
+            "link": "",
+            "icone": "assets/tool_icons/gravit.png"
+        },
+        {
+            "nome": "yarn",
+            "link": "",
+            "icone": "assets/tool_icons/yarn.png"
+        },
+        {
+            "nome": "Conda",
+            "link": "",
+            "icone": "assets/tool_icons/conda.png"
+        },
+        {
+            "nome": "Tensorflow",
+            "link": "",
+            "icone": "assets/tool_icons/tensorflow.png"
+        }
+    ],
+    "os" :[
+        {
+            "nome": "Ubuntu",
+            "link": "",
+            "icone": "assets/tool_icons/ubuntu.png"
+        },
+        {
+            "nome": "Debian",
+            "link": "",
+            "icone": "assets/tool_icons/debian.png"
+        },
+        {
+            "nome": "Windows 10",
+            "link": "",
+            "icone": "assets/tool_icons/w10.png"
+        }
+    ],
+    "dbs" :[
+        {
+            "nome": "MongoDB",
+            "link": "",
+            "icone": "assets/tool_icons/mongo.png"
+        },
+        {
+            "nome": "MySQL",
+            "link": "",
+            "icone": "assets/tool_icons/mysql.png"
+        },
+        {
+            "nome": "Oracle",
+            "link": "",
+            "icone": "assets/tool_icons/oracle.png"
+        }
+    ],
+    "estudando" :[
+        {
+            "nome": "Scala",
+            "link": "",
+            "icone": "assets/tool_icons/scala.png"
+        }
+    ]
+}

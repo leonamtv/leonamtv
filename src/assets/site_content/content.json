@@ -1,0 +1,62 @@
+{
+    "interesses" : "Meus interesses são voltados para as áreas de desenvolvimento web, desenvolvimento mobile, análise de dados e machine learning.",
+    "formacao" : [
+      "Tenho curso de aprendizagem e manutenção em redes de microcomputadores no SENAI",
+      "Sou técnico em informática pelo CEFET-MG campus Timóteo",
+      "Sou aluno do 10º período de engenharia de computação pelo CEFET-MG campus Timóteo"
+    ],
+    "habilidades-tec" : {
+      "title" : "Habilidades técnicas",
+      "items" : [
+        "Node.js",
+        "Angular 2",
+        "Flutter",
+        "Python",
+        "C++"
+      ]
+    },
+    "habilidades-pes" : {
+      "title" : "Habilidades pessoais",
+      "items" : [
+        "Proativo",
+        "Pontual",
+        "Trabalho bem em equipe",
+        "Toco violão, guitarra, baixo e teclado"
+      ]
+    },
+    "studyingnow" : { 
+      "title" : "Atualmente estou estudando",
+      "items" : [
+        "Flutter",
+        "Tensorflow 2.0",
+        "Scala"
+      ]
+    },
+    "offtopic" : {
+      "title" : "Off-topic",
+      "items" : [
+        { 
+          "title" : "Algoritmos favoritos",
+          "items" : [
+            "Counting sort",
+            "Dijkstra"
+          ]
+        },
+        {
+          "title" : "Problema favorito",
+          "items" : [
+            "Aproximação de pi pelo método de Monte Carlo"
+          ]
+        },
+        {
+          "title" : "Filmes favoritos",
+          "items" : [
+            "Pulp Fiction",
+            "Inglorious Basterds",
+            "Arrival",
+            "Lord of the rings I, II e III"
+          ]
+        }
+      ]
+    }
+  }

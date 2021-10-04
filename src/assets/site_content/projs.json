@@ -1,0 +1,62 @@
+[
+    {
+      "titulo" : "FGA N-Rainhas",
+      "desc"   : "Implementação de algoritmo genético para resolver o problema das N-rainhas.",
+      "link"   : "https://github.com/leonamtv/FGA-N-Rainhas",
+      "tags"   : [ "python", "IA", "AG" ]
+    },
+    {
+      "titulo" : "Frame Analyser",
+      "desc"   : "Um script em python3 para analisar um vídeo ou um filme e gerar um html com suas cores predominantes.",
+      "link"   : "https://github.com/leonamtv/frame-analyser",
+      "tags"   : [ "python" ]
+    },
+    {
+      "titulo" : "Nerdcast Downloader",
+      "desc"   : "Pequeno webcrawler que faz a busca do último nerdcast e faz o download.",
+      "link"   : "https://github.com/leonamtv/nerdcast-downloader",
+      "tags"   : [ "python" ]
+    },
+    {
+      "titulo" : "Lyrics Analyser",
+      "desc"   : "Pequeno webcrawler para fazer o download de letras de artistas e verificar a frequência de palavras",
+      "link"   : "https://github.com/leonamtv/lyrics-analyser",
+      "tags"   : [ "python" ]
+    },
+    {
+      "titulo" : "Criador de projetos",
+      "desc"   : "Software para automatizar a criação de projetos.",
+      "link"   : "https://github.com/leonamtv/create-base-project",
+      "tags"   : [ "python" ]
+    },
+    {
+      "titulo" : "Cubo de led 8x8x8",
+      "desc"   : "Frontend do projeto apresentado pelo meu grupo na META do CEFET-MG 2019.",
+      "link"   : "https://github.com/leonamtv/Cubo-de-led-8x8x8",
+      "tags"   : [ "angular", "typescript" ]
+    },
+    {
+      "titulo" : "Space X",
+      "desc"   : "Aplicativo simples para consumir alguns recursos da api graphql pública da SpaceX.",
+      "link"   : "https://github.com/leonamtv/spacex",
+      "tags"   : [ "flutter", "dart" ]
+    },
+    {
+      "titulo" : "Wgmon",
+      "desc"   : "Aplicativo para monitorar peso usando como base de dados uma simples planilha do Google Sheets. Regressão linear é utilizada para fazer predição.",
+      "link"   : "https://github.com/leonamtv/wgmon",
+      "tags"   : [ "flutter", "dart" ]
+    },
+    {
+      "titulo" : "Clexer",
+      "desc"   : "Analisador léxico para a linguagem ANSI-C. Trabalho da disciplina de compiladores.",
+      "link"   : "https://github.com/leonamtv/clexer",
+      "tags"   : [ "python" ]
+    },
+    {
+      "titulo" : "HTMLParser",
+      "desc"   : "Parser de HTML para a disciplina de compiladores.",
+      "link"   : "https://github.com/leonamtv/html-parser",
+      "tags"   : [ "python" ]
+    }
+  ]

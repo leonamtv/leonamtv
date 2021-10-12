@@ -3,6 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { Component, HostListener, Inject, OnInit } from '@angular/core';
 import { animate, style, transition, trigger } from '@angular/animations';
 import { ContentService } from './content.service';
+import { DialogService } from './dialog/dialog.service';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -39,9 +40,16 @@ export class AppComponent implements OnInit {
 
   constructor(
     @Inject(DOCUMENT) document,
-    private contentService: ContentService
+    private contentService: ContentService,
+    private dialogService: DialogService
   ) { 
     this.getData()
+  }
+
+  onClick() {
+    this.dialogService.open((data) => {
+      console.log(data)
+    })
   }
   
   ngOnInit(): void {

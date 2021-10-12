@@ -11,27 +11,27 @@ ul {
 }
 
 h1 {
-    font-size: 6vh;
-    color: $color5;
-}
-
-h2 {
     font-size: 5vh;
     color: $color5;
 }
 
-h3 {
+h2 {
     font-size: 4vh;
     color: $color5;
 }
 
-h4 {
+h3 {
     font-size: 3vh;
     color: $color5;
 }
 
+h4 {
+    font-size: 2.5vh;
+    color: $color5;
+}
+
 h5 {
-    font-size: 2vh;
+    font-size: 1.5vh;
     color: $color5;
 }
 
@@ -83,12 +83,16 @@ section::-webkit-scrollbar {
 
 .tools-wrapper {
     display: grid;
-    grid-template-columns: auto auto ;
+    grid-template-columns: auto auto;
     grid-column-gap: 2rem;
     grid-row-gap: 2rem;
 
 
     .tools-linguagens {
+        background-color: white;
+        box-shadow: 0 6px 28px 0 rgba(24, 52, 117, 0.2);
+        padding: 30px;
+        border-radius: 10px;;
         
         div {
             display: grid;
@@ -99,13 +103,14 @@ section::-webkit-scrollbar {
                 display: flex;
                 position: relative;
                 justify-content: initial;
-                width: 230px;
+                width: 80%;
                 background-color: rgba(white, 0.7);
                 padding: 15px;
                 margin-bottom: 10px;
                 border-radius: 15px;
                 align-items: initial;
                 text-align: left;
+                box-shadow: 0 6px 28px 0 rgba(59, 70, 95, 0.1);
                 transition: box-shadow 0.2s ease-in-out;
     
                 img {
@@ -115,7 +120,7 @@ section::-webkit-scrollbar {
                     font-weight: 600;
                     font-style: italic;
                     padding-left: 20px;
-                    font-size: 2.3vh;
+                    font-size: 2vh;
                     vertical-align: middle;
                     text-align: center;
                     vertical-align: middle;
@@ -292,7 +297,7 @@ section::-webkit-scrollbar {
 
 .projs {
     display: grid;
-    gap: 5rem;
+    gap: 6rem;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     
     h4 {

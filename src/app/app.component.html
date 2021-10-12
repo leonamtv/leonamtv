@@ -60,7 +60,7 @@
     </section>
     <section class='prim content img2' id='interesses'  #interesses>
       <h1>Interesses</h1>
-      <h3>{{conteudo.interesses}}</h3>
+      <h3>{{conteudo['interesses']}}</h3>
     </section>
     <section class='sec content img3' id='projetos' #projetos>
       <h1>Projetos</h1>
@@ -90,21 +90,27 @@
       <h1>Pessoal</h1>
       <div class='habs'>
         <div>
-          <h3>{{conteudo['habilidades-pes'].title}}</h3>
+          <h3>{{conteudo['habilidades-pes']?.title}}</h3>
           <ul>
-            <li *ngFor="let item of conteudo['habilidades-pes']['items']">{{item}}<br><br></li>
+            <ng-container *ngIf="conteudo['habilidades-pes']">
+              <li *ngFor="let item of conteudo['habilidades-pes']['items']">{{item}}<br><br></li>
+            </ng-container>
           </ul><br>
         </div>
-        <div>
-          <h3>{{conteudo['habilidades-tec'].title}}</h3>
+        <!-- <div>
+          <h3>{{conteudo['habilidades-tec']?.title}}</h3>
           <ul>
-            <li *ngFor="let item of conteudo['habilidades-tec']['items']">{{item}}<br><br></li>
+            <ng-container *ngIf="conteudo['habilidades-tec']">
+              <li *ngFor="let item of conteudo['habilidades-tec']['items']">{{item}}<br><br></li>
+            </ng-container>
           </ul><br>
-        </div>
+        </div> -->
         <div>
-          <h3>{{conteudo['studyingnow'].title}}</h3>
+          <h3>{{conteudo['studyingnow']?.title}}</h3>
           <ul>
-            <li *ngFor="let item of conteudo['studyingnow']['items']">{{item}}<br><br></li>
+            <ng-container *ngIf="conteudo['studyingnow']">
+              <li *ngFor="let item of conteudo['studyingnow']['items']">{{item}}<br><br></li>
+            </ng-container>
           </ul><br>
         </div>
       </div>
@@ -123,7 +129,7 @@
             </div>
           </div>
           <div class='tools-linguagens'>
-            <h3>Frameworks e <br>ambientes</h3>
+            <h3>Frameworks e ambientes</h3>
             <div>
 
               <div *ngFor="let item of tools['frameworks']" class='tools-linguagem' (click)="goToLink(item.link)">
@@ -166,7 +172,7 @@
             </div>
           </div>
           <div class='tools-linguagens'>
-            <h3>Banco de<br> dados</h3>
+            <h3>Banco de dados</h3>
             <div>
 
               <div *ngFor="let item of tools['dbs']" class='tools-linguagem' (click)="goToLink(item.link)">
@@ -201,6 +207,9 @@
   </main>
   <button class='fab' (click)='gotToTop()' *ngIf='visible' [@enterAnimation]>
     ˄
+  </button>
+  <button (click)='onClick();'>
+    OpenDialog
   </button>
 
 </body>

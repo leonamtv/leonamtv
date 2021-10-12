@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monte Carlo</title>
+</head>
+<body onload="if( draw ) draw();">
+    <div class='wrapper'>
+        <div class='content'>
+            <h1>Monte Carlo approximation of PI</h1>
+            <input id="numPontos" type="text" placeholder="Número de pontos" [(ngModel)]="total">
+            <button id="run" (click)="draw()">Executar</button>
+        </div>
+        <canvas id="canvas" width="500" height="500" #canvas></canvas>
+        <div class='content'>
+            <div id="inside">{{ inside }}</div>
+            <div id="outside">{{ outside }}</div>
+            <div id="pi">{{ pi }}</div>
+        </div>
+    </div>
+</body>
+</html>

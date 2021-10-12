@@ -1,0 +1,43 @@
+*{
+    // background-color: #181e36;
+    font-family: 'Courier';
+}
+body {
+    padding: 20px;
+}
+.wrapper {
+    // background-color: #181e36;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 6px 28px 0 rgba(59, 70, 95, 0.1);
+}
+canvas {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+p {
+    padding-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    color: #3794e6;
+    font-size: 1.2vh;
+}
+#time {
+    color: #3794e6;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 6vh;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
